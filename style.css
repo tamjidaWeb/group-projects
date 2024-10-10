@@ -34,7 +34,7 @@ header{
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: space-betweens;
+    justify-content: space-between;
     padding: 28px 5%;
 }
 .account {
@@ -97,6 +97,16 @@ header{
         padding: 5px 0;
         margin: 0px 20px;
     }
+    .main a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .navbar #down{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
 }
 
 @media (max-width: 790px){
@@ -105,9 +115,15 @@ header{
     }
     .logo span{
         font-size: 25px;
- 
- 
  }
+ .main a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .logo #bazar{
+    font-size: 10px;
+}
     .navbar{
         /* position: absolute;
         top: 100%;
@@ -123,9 +139,12 @@ header{
 }
 @media (max-width: 412px){
     .logo span{
-           font-size: 20px;
+           font-size: 10px;
     
     
+    }
+    .logo #bazar{
+        font-size: 10px;
     }
 }
 
