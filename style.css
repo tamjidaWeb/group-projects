@@ -59,3 +59,19 @@ header{
     padding-right: 10px;
     
 }
+
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 10px;
+    color: black;
+}
+/* .space{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
