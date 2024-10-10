@@ -8,5 +8,7 @@
     text-decoration: none;
     list-style: none;
 }
-nav{
+.logo img{
+    width: 40px;
+    margin-right: 10px;
 }
